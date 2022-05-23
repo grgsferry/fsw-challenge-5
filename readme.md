@@ -4,7 +4,7 @@ This is a web app project containing a trial for RPS (rock, paper, scissors) gam
 
 ## What's new in this chapter?
 
-- JSON based registered user database & subscribed user database
+- JSON based registered user database & subscribed email database
 - Signup page and Login page
 - Email subscribe for Newsletter
 - Hosted app on NodeJS + ExpressJS localhost server
