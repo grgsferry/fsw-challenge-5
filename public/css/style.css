@@ -1,0 +1,243 @@
+body {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 1em;
+  background-color: hsl(200, 16%, 4%);
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: hsla(0, 0%, 0%, 0.6);
+}
+
+h1 {
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 3em;
+}
+
+h3 {
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 2em;
+}
+
+p {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.p-like {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.small-text {
+  font-size: 0.75em;
+}
+
+.medium-text {
+  font-size: 1.5em;
+}
+
+.large-text {
+  font-size: 2em;
+}
+
+span {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.btn-txt {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.navbar-class a:hover {
+  color: hsl(36, 95%, 62%) !important;
+}
+
+.color-white {
+  color: white;
+}
+
+.bgcolor-white {
+  background-color: white;
+}
+
+.color-yellow {
+  color: hsl(36, 95%, 62%) !important;
+}
+
+.bgcolor-yellow {
+  background-color: hsl(36, 95%, 62%) !important;
+}
+
+.color-gray {
+  color: gray;
+}
+
+.bgcolor-gray {
+  background-color: gray;
+}
+
+.bgcolor-darkgray {
+  background-color: hsl(210, 4%, 11%) !important;
+}
+
+.navbar-class {
+  position: relative;
+}
+
+.page-one {
+  background-image: radial-gradient(170% 60% at 50% 40%, hsla(0, 0%, 50%, 0) 0%, rgba(0, 0, 0, 0.5) 70%, hsl(0, 0%, 0%) 99%), url(/assets/main-bg.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  min-height: 100vh !important;
+  z-index: 1;
+}
+
+.page-two {
+  background-image: radial-gradient(100% 60% at 50% 50%, rgba(255, 0, 0, 0), hsla(0, 0%, 0%, 0.1) 50%, hsl(0, 0%, 0%) 90%), url(/assets/the-games-bg.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  min-height: 100vh !important;
+}
+
+.page-three {
+  background-image: radial-gradient(180% 50% at 30% 45%, rgba(255, 0, 0, 0), hsla(0, 0%, 0%, 0.1) 80%, hsla(0, 0%, 0%, 0.6) 98%), url(/assets/features.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  min-height: 100vh !important;
+}
+
+.page-four {
+  background-image: radial-gradient(hsla(0, 0%, 0%, 0.068) 0%, rgba(0, 0, 0, 0.775) 80%, hsl(0, 0%, 0%) 90%), url(/assets/requirements.png) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  min-height: 100vh !important;
+}
+
+.page-five {
+  background-image: url(/assets/top-score-bg.png) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  min-height: 100vh !important;
+}
+
+.page-six {
+  background-color: hsl(200, 16%, 4%) !important;
+  min-height: 100vh !important;
+}
+
+.black-overlay {
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.btn-lg {
+  width: 14em;
+  height: 3em;
+}
+
+.the-story-link {
+  position: absolute;
+  left: 50vw;
+  transform: translate(-50%, 0);
+  bottom: 60px;
+  /* -webkit-animation: bounce 1s infinite; */
+}
+/* 
+@-webkit-keyframes bounce {
+  0% {
+    bottom: 60px;
+  }
+  25%,
+  75% {
+    bottom: 70px;
+  }
+  50% {
+    bottom: 75px;
+  }
+  100% {
+    bottom: 60px;
+  }
+} */
+
+.the-story-link a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.bi-triangle {
+  transform: rotate(180deg);
+}
+
+.card-img-top {
+  width: 4rem;
+}
+
+.img-shadow {
+  position: absolute;
+  border-radius: 50%;
+  background: hsl(36, 95%, 62%);
+  width: 4rem;
+  height: 4rem;
+  transform: translate(6px, 3px);
+}
+
+#inputEmail {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 1.5rem 0.75rem 0.75rem 0.75rem;
+  color: hsl(36, 95%, 62%);
+}
+
+#inputEmail::placeholder {
+  color: hsl(36, 95%, 62%);
+}
+
+.input-email-label {
+  position: absolute;
+  font-size: x-small;
+  top: 0;
+  left: 0;
+  padding-left: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+hr.solid {
+  border-top: 1px solid gray;
+}
+
+.navbar-brand img {
+  width: 2em;
+}

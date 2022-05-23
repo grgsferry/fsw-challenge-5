@@ -1,0 +1,119 @@
+body {
+  background-color: #9b835f;
+  font-size: 16px;
+}
+
+.container {
+  max-height: 100vh;
+}
+
+.navigator {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #ebac45;
+}
+
+.navigator-a {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #745328;
+}
+
+.navigator-a:hover {
+  text-decoration: none;
+  transform: scale(1.5);
+  color: #745328;
+}
+
+.player-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.options {
+  width: 6rem;
+  height: 7rem;
+  padding: 0.625rem;
+  margin: 1.25rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: #9b835f;
+}
+
+.options-rock {
+  background-image: url(/assets/batu.png);
+}
+
+.options-paper {
+  background-image: url(/assets/kertas.png);
+}
+
+.options-scissors {
+  background-image: url(/assets/gunting.png);
+}
+
+.reset-button {
+  width: 5.5rem;
+  height: auto;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.reset-button:hover {
+  transform: scale(1.25);
+}
+
+.hover-prop:hover {
+  border-style: none;
+  border-radius: 10px;
+  background-color: #c4c4c4;
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.selected-border {
+  border-style: none;
+  border-radius: 10px;
+  background-color: #c4c4c4;
+  transform: scale(1.25);
+}
+
+.result-div {
+  vertical-align: middle;
+  height: 9rem;
+  font-size: 6rem;
+  width: 70%;
+  color: darkred;
+}
+
+.result-game {
+  color: inherit;
+  font-size: inherit;
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+
+.player-win {
+  color: white;
+  font-size: 3rem;
+  background-color: #4b9653;
+  transform: rotate(-15deg);
+}
+
+.computer-win {
+  color: white;
+  font-size: 3rem;
+  background-color: #4b9653;
+  transform: rotate(-15deg);
+}
+
+.draw-result {
+  color: white;
+  font-size: 3rem;
+  background-color: #035c0c;
+  transform: rotate(-15deg);
+}
